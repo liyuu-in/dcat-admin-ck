@@ -18,6 +18,7 @@
         filebrowserBrowseUrl: `{{ $filebrowserBrowseUrl }}`+'?type=Files',
         filebrowserImageBrowseUrl: `{{$filebrowserBrowseUrl}}`+'?type=Images',
         filebrowserUploadUrl: `{{$filebrowserUploadUrl}}`+'?command=QuickUpload&type=Files',
-        filebrowserImageUploadUrl: `{{$filebrowserUploadUrl}}`+'?command=QuickUpload&type=Images'
+        filebrowserImageUploadUrl: `{{$filebrowserUploadUrl}}`+'?command=QuickUpload&type=Images',
+        fullPage: $('{{ $selector }}').attr('data-full')
     });
 </script>
